@@ -97,3 +97,34 @@ There are three popular types of gradient descent that mainly differ in the amou
 * Mini-batch gradient descent
 
     Mini-batch gradient descent is the go-to method since it’s a combination of the concepts of SGD and batch gradient descent. It simply splits the training dataset into small batches and performs an update for each of those batches. This creates a balance between the robustness of stochastic gradient descent and the efficiency of batch gradient descent.
+
+
+### Convolutional Neural Network
+
+A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other. The pre-processing required in a ConvNet is much lower as compared to other classification algorithms. While in primitive methods filters are hand-engineered, with enough training, ConvNets have the ability to learn these filters/characteristics.
+
+The architecture of a ConvNet is analogous to that of the connectivity pattern of Neurons in the Human Brain and was inspired by the organization of the Visual Cortex. Individual neurons respond to stimuli only in a restricted region of the visual field known as the Receptive Field. A collection of such fields overlap to cover the entire visual area.
+
+![cnn](./cnn.jpg)
+
+[why cnn?][7]
+
+[cnn cheat sheet][6]
+
+[6]:https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks "cnn cheat sheet"
+[7]:https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac "why cnn?"
+
+#### Types of layer in CNN
+
+* #### Convolution Layer
+
+    Convolutional layers are the major building blocks used in convolutional neural networks.
+
+    A convolution is the simple application of a filter to an input that results in an activation. Repeated application of the same filter to an input results in a map of activations called a feature map, indicating the locations and strength of a detected feature in an input, such as an image.
+
+    ![conv_layer](./conv_layer.jpg)
+
+    [What is convolution layer?][8]
+
+    [8]:https://analyticsindiamag.com/what-is-a-convolutional-layer/ "What is convolution layer?"
+
