@@ -128,3 +128,19 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 
     [8]:https://analyticsindiamag.com/what-is-a-convolutional-layer/ "What is convolution layer?"
 
+    #### Relu layer
+
+    The Rectified Linear Unit, or ReLU, is not a separate component of the convolutional neural networks' process.It's a supplementary step to the convolution operation.
+
+    In this layer we remove every negative value from the filtered image and replace it with zero. This function only activates when the node input is above a certain quantity. So, when the input is below zero the output is zero. However, when the input rises above a certain threshold it has linear relationship with the dependent variable. This means that it is able to accelerate the speed of a training data set in a deep neural network that is faster than other activation functions – this is done to avoid summing up with zero.
+
+    ![relu_layer](./relu_layer.jpg)
+
+    [Convolutional Neural Networks (CNN): Step 1(b) - ReLU Layer][9]
+
+    [9]:https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-step-1b-relu-layer "relu layer1"
+
+    [How ReLU and Dropout Layers Work in CNNs?][10]
+
+    [10]:https://www.baeldung.com/cs/ml-relu-dropout-layers "relu_layer2"
+
