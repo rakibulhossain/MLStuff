@@ -107,9 +107,9 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 
 ![cnn](./cnn.jpg)
 
-[why cnn?][7]
+[Why CNN?][7]
 
-[cnn cheat sheet][6]
+[CNN Cheat Sheet][6]
 
 [6]:https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks "cnn cheat sheet"
 [7]:https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac "why cnn?"
@@ -144,3 +144,18 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 
     [10]:https://www.baeldung.com/cs/ml-relu-dropout-layers "relu_layer2"
 
+* #### Pooling Layer
+    A pooling layer is another building block of a CNN.
+
+    Its function is to progressively reduce the spatial size of the representation to reduce the amount of parameters and computation in the network. Pooling layer operates on each feature map independently.
+
+    The most common approach used in pooling is max pooling.
+
+    ![pooling](./pooling.jpg)
+
+    [Comprehensive Guide to Different Pooling Layers in Deep Learning][11]
+
+    [Convolutional Neural Networks (CNN): Step 2 - Max Pooling][12]
+
+    [11]:https://analyticsindiamag.com/comprehensive-guide-to-different-pooling-layers-in-deep-learning/ "pooling1"
+    [12]:https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-step-2-max-pooling/ "pooling2"
