@@ -159,3 +159,30 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 
     [11]:https://analyticsindiamag.com/comprehensive-guide-to-different-pooling-layers-in-deep-learning/ "pooling1"
     [12]:https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-step-2-max-pooling/ "pooling2"
+
+* #### Flattening Step
+    The flattening step is a refreshingly simple step involved in building a convolutional neural network.
+
+    It involves taking the pooled feature map that is generated in the pooling step and transforming it into a one-dimensional vector. Here is a visual representation of what this process looks like:
+
+    ![flattening](./flattening.jpg)
+
+    [Convolutional Neural Networks (CNN): Step 3 - Flattening][13]
+
+    [13]:https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-step-3-flattening "flattening"
+
+* #### Fully Connected Layer
+
+    Fully Connected Layer is simply, feed forward neural networks. Fully Connected Layers form the last few layers in the network.
+
+    The input to the fully connected layer is the output from the final Pooling or Convolutional Layer, which is flattened and then fed into the fully connected layer.
+
+    ![f_c_layer](./f_c_layer.jpg)
+
+    [Convolutional Neural Networks (CNN): Step 4 - Full Connection][14]
+
+    [14]:https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-step-4-full-connection "f_c_layer"
+
+    
+
+
