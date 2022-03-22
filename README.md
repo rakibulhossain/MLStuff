@@ -183,6 +183,32 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
 
     [14]:https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-step-4-full-connection "f_c_layer"
 
+* #### Output layer
+    #### Softmax Function
+    Softmax is an activation function that scales numbers/logits into probabilities.It is popularly used for multiclass classification problems. In the Output layer we are going to use softmax layer to efficiently calculate the dependent probability of each output or class.
+
+    ![softmax](./softmax.jpg)
+    
+    [Softmax Activation Function — How It Actually Works][15]
+
+    [15]:https://towardsdatascience.com/softmax-activation-function-how-it-actually-works-d292d335bd78 "softmax"
+
+    #### Cross-Entropy
+    Hand in hand with the softmax function is the cross-entropy loss function.
+
+    ![cross-entropy](./cross_entropy.jpg)
+
+    [Cross-Entropy loss function][16]
+
+    [16]:https://towardsdatascience.com/cross-entropy-loss-function-f38c4ec8643e
+
+    [Cross-Entropy Demystified][18]
+
+    [18]:https://towardsdatascience.com/cross-entropy-demystified-f0886a64883f
+
+    [Softmax & Cross-Entropy][17]
+
+    [17]:https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-softmax-crossentropy
     
 
 
