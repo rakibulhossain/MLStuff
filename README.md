@@ -209,6 +209,20 @@ The architecture of a ConvNet is analogous to that of the connectivity pattern o
     [Softmax & Cross-Entropy][17]
 
     [17]:https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-softmax-crossentropy
-    
+
+### Recurrent Neural Network
+
+Recurrent Neural Network, this is a type of artificial neural network that can process sequential data, recognize patterns and predict the final output.
+This Neural Network is called Recurrent because it can repeatedly perform the same task or operation on a sequence of inputs.
+An RNN has an internal memory that allows it to remember or memorize the information of the input it received and this helps the system to gain context. Therefore if you have sequential data like a time series, then an RNN will be a good fit to process that data. 
+This can not be done by a CNN or Feed-Forward Neural Networks since they can not sort the correlation between previous input to the next input.
+
+![rnn](./rnn.jpg)
+
+[A Guide to RNN: Understanding Recurrent Neural Networks and LSTM Networks][19]
+
+[19]:https://builtin.com/data-science/recurrent-neural-networks-and-lstm "rnn"
+
+
 
 
